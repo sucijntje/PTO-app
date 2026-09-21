@@ -1,6 +1,6 @@
 <!doctype html><html lang="nl"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>PTO 2026–2027</title>
+<title>PTO & Schoolrooster 1E</title>
 <style>
 :root{--bg:#f4f7fb;--card:#fff;--text:#182433;--muted:#68788a;--green:#2e9d5b;--orange:#e9962c;--blue:#367dcc;--red:#d84a4a}
 *{box-sizing:border-box}
@@ -33,8 +33,29 @@ main{padding:8px 10px 28px;max-width:900px;margin:auto}
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="PTO">
 <link rel="apple-touch-icon" href="icon-180.png">
+
+<style>
+.app-switcher{
+  display:flex; gap:8px; margin-top:10px; overflow:auto;
+}
+.app-switcher a{
+  flex:1; text-align:center; min-width:120px;
+  text-decoration:none; font-weight:800;
+  padding:10px 14px; border-radius:12px;
+  background:#ffffff22; color:#fff;
+  border:1px solid #ffffff33;
+}
+.app-switcher a.active{
+  background:#fff; color:#173b67;
+}
+</style>
+
 </head><body id="top">
 <header><h1>PTO 2026–2027</h1><div class="sub">Leerjaar 1 • alle vakken per schoolperiode</div>
+<div class="app-switcher">
+<a class="active" href="index.html">PTO</a>
+<a href="rooster.html">Schoolrooster</a>
+</div>
 <div class="nav"><a href="#periode1">Periode 1</a><a href="#periode2">Periode 2</a><a href="#periode3">Periode 3</a></div></header>
 <div class="legend"><span><i class="dot" style="background:#2e9d5b"></i>toets</span><span><i class="dot" style="background:#e9962c"></i>mondeling</span><span><i class="dot" style="background:#367dcc"></i>opdracht/practicum</span><span><i class="dot" style="background:#d84a4a"></i>GPW</span></div>
 <div class="notice"><b>Let op:</b> alles wat in dezelfde PTO-week valt, staat nu in één weekblok. Het PTO vermeldt niet altijd een exacte toetsdag.</div>

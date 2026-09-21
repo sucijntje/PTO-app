@@ -1,7 +1,7 @@
 {
-  "name": "PTO 2026-2027",
-  "short_name": "PTO",
-  "description": "PTO-overzicht per periode, gegroepeerd per week.",
+  "name": "PTO & Schoolrooster 1E",
+  "short_name": "School 1E",
+  "description": "PTO en schoolrooster van klas 1E in één app.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
