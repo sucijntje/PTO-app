@@ -1,4 +1,4 @@
-const CACHE='school-1e-combi-v2';
+const CACHE='school-1e-combi-v3';
 const ASSETS=[
   './',
   './index.html',
